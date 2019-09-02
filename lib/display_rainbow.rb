@@ -4,9 +4,9 @@ def display_rainbow(colors)
   while counter < colors.length
     print "#{colors[counter][0].upcase}: #{colors[counter]}"
     if counter < (colors.length - 1)
-      print "\n"
-    else
       print ", "
+    else
+      print "\n"
     end
     counter += 1
   end
